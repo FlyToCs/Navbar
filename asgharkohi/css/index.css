@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "yekan";
+  src: url("../../fonts/BNikaTheme.eot"); /* IE9 Compat Modes */
+  src: url("../../fonts/BNikaTheme.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+url("../../fonts/BNikaTheme.otf") format("opentype"), /* Open Type Font */
+url("../../fonts/BNikaTheme.svg") format("svg"), /* Legacy iOS */
+url("../../fonts/BNikaTheme.ttf") format("truetype"), /* Safari, Android, iOS */
+url("../../fonts/BNikaTheme.woff") format("woff"), /* Modern Browsers */
+url("../../fonts/BNikaTheme.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+	vertical-align: middle;
+}
+
+body{
+	font-family: yekan,'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	word-wrap:break-word;
+	background: #d6e3ec;
+}
+#body{
+	text-align: right;
+	direction: rtl;
+	position: relative;
+}
+
+#header{max-width: 1200px;margin: 0 auto;}
+#navbarbox{
+	background: #24252a;
+	padding: 5px 50px;
+	margin: 10px;
+	color: #fff;
+	box-shadow: 0 0 8px #5c6067;
+	border-radius: 3px;
+}
+#navbarrigth{position: relative;}
+#navbarheaderbox{display: none;position: relative}
+#navbarheaderboximg{height: 150px;width: 100%;}
+#navbarheaderboximg_r{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	width: 30px;
+	cursor: pointer;
+}
+#menubtn{
+	display: none;
+	width: 24px;
+	margin: 6px;
+	cursor: pointer;
+}
+.navbaritem{
+	border-radius: 30px;
+	min-width: 80px;
+	margin: 3px 7px;
+	text-align: center;
+	float: right;
+	padding: 9px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.navbaritem:hover{
+	background: #0f88a7;
+}
+.navbaritem_sel{
+	background: #0f88a7;
+}
+#logobox{
+	float: left;
+	margin: 10px 5px;
+	min-width: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+.clear{clear: both;}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 750px){
+	#navbarrigth{display: none;}
+	.navbaritem{
+		float: none;
+		width: 100%;
+		margin: 10px 0px;
+		border-radius: 0px;
+	}
+	#menubtn{display: inline-block;}
+	
+	#navbarbox{padding: 5px;margin: 0px;}
+	
+	#navbarrigth{
+		position: fixed;
+		right: 0px;
+		top: 8px;
+		bottom: 0px;
+		background: #24252a;
+		width: 60%;
+	}
+	#navbarheaderbox{display: block;}
+}
