@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff !important;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  text-transform: capitalize;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.active-link {
+  color: #00c3ff !important;
+}
+
+.a-hover {
+  transition: 200ms;
+}
+.a-hover:hover {
+  color: #00c3ff !important;
+}
+
+.contact a {
+  background-color: #006a9b;
+}
+.contact a:hover {
+  transition: 200ms;
+  background-color: #035880;
+}/*# sourceMappingURL=style.css.map */
