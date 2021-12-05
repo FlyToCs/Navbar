@@ -49,7 +49,7 @@ body{
 }
 #navbarrigth{position: relative;}
 #navbarheaderbox{display: none;position: relative}
-#navbarheaderboximg{height: 150px;width: 100%;}
+#navbarheaderboximg{height: 150px;width: 100%;box-shadow: 0 5px 20px -13px aliceblue;}
 #navbarheaderboximg_r{
 	position: absolute;
 	left: 10px;
