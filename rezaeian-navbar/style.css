@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'vazir';
+  src: url(./asset/Vazir-Variable.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #eeeeee;
+}
+
+body {
+  font-family: 'vazir';
+}
+.navbar {
+  background-color: #222831;
+  height: auto;
+  width: 100vw;
+}
+nav {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo span {
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  list-style-type: none;
+}
+ul li {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 30px;
+}
+ul li:hover {
+  background-color: #00adb5;
+}
+ul a {
+  text-decoration: none;
+}
+
+/* Media Queries screen < 850px */
+@media only screen and (max-width: 850px) {
+  nav {
+    width: 97%;
+  }
+
+  ul {
+    width: 65%;
+  }
+}
+/* Media Queries screen < 600px */
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+  }
+  .logo {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 20px 0px;
+  }
+  .logo span {
+    font-size: 2.5rem;
+  }
+  ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  ul li,
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  ul li {
+    padding: 20px 0px;
+    border-radius: 0px;
+  }
+}
