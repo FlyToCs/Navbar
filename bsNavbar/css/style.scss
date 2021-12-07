@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #fff !important;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSansWeb" !important;
 }
 a {
   text-decoration: none !important;
@@ -28,11 +28,102 @@ html {
 }
 
 .contact {
+  transition: 300ms;
   a {
     background-color: rgb(0, 106, 155);
     &:hover {
       transition: 200ms;
       background-color: rgb(3, 88, 128);
     }
+  }
+}
+
+.nav-links {
+  transition: 300ms;
+  position: static;
+}
+
+.burger-field {
+  display: none;
+  width: 50px;
+  height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  margin-left: 10px;
+  position: absolute;
+  top: 1px;
+  left: 3%;
+}
+
+.hamburger-menu {
+  width: 20px;
+  height: 4px;
+  z-index: 1000;
+  transition: 300ms;
+  cursor: pointer;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    top: -12px;
+    width: 40px;
+    height: inherit;
+    border-radius: inherit;
+    left: 0;
+    transform: rotate(0deg);
+    transition: top 300ms 300ms, transform 300ms, width 300ms;
+  }
+  &::after {
+    top: 12px;
+    width: 30px;
+  }
+  &[data-isOpen="true"] {
+    width: 40px;
+    background-color: transparent !important;
+    &::after,
+    &::before {
+      width: 40px;
+      top: 0;
+      transition: top 300ms, transform 300ms 300ms, width 300ms;
+    }
+    &::before {
+      transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: 60%;
+    bottom: 0;
+    left: 0;
+    margin-left: 0 !important;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+      flex-direction: column;
+      padding-left: 0;
+      gap: 2em;
+    }
+  }
+  .contact {
+    position: fixed;
+    bottom: 10%;
+    a {
+      padding-inline: clamp(10px, 5vw, 15px) !important;
+    }
+  }
+  .burger-field {
+    display: flex;
   }
 }
