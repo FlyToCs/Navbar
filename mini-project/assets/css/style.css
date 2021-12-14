@@ -22,6 +22,28 @@
 font-size: 13px;
   }
 
+
+
+
+
+
+.nav-item{
+	transition: 0.4s;
+}
+.nav-item:hover {
+    background: #3e8e41;
+    border-radius: 12px;
+}
+.dropdown-item{
+	transition: 0.4s;
+}
+
+
+
+
+
+
+
   a.navbar-brand img.logo {
 width: 25px;
 height: inherit;
