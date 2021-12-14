@@ -14,9 +14,26 @@
   }
 
 
- .main-nav{
-    background-color: #232f3e;
+ 
+
+  /*changes starts */
+  #navbarDropdownMenuLink,.main-nav{
+    background-color: #66806A !important;
   }
+  .dropdown-toggle {
+    background-color: #FFC286 !important;
+    color: #000 !important;
+    border: #FFC286 !important;
+  }
+
+  #button-addon2 {
+    background-color: #FFF1AF !important;
+  }
+  #dropdownMenuButton1,.fa-shopping-basket {
+    color:rgb(50, 50, 50) !important;
+  }
+  
+  /* changes ends*/
 
 .line-nav div{
 font-size: 13px;
