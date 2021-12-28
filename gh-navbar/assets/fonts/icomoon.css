@@ -1,0 +1,537 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot?5t54w1');
+    src: url('../fonts/icomoon/icomoon.eot?5t54w1#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?5t54w1') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?5t54w1') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?5t54w1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-assistance:before {
+    content: "\e961";
+}
+
+.icon-boarding-pass:before {
+    content: "\e970";
+}
+
+.icon-checked:before {
+    content: "\e971";
+}
+
+.icon-credit-card:before {
+    content: "\e972";
+}
+
+.icon-doctor:before {
+    content: "\e973";
+}
+
+.icon-first-aid-kit:before {
+    content: "\e974";
+}
+
+.icon-form:before {
+    content: "\e975";
+}
+
+.icon-home:before {
+    content: "\e976";
+}
+
+.icon-nurse:before {
+    content: "\e977";
+}
+
+.icon-partner:before {
+    content: "\e978";
+}
+
+.icon-passport:before {
+    content: "\e979";
+}
+
+.icon-presentation:before {
+    content: "\e97a";
+}
+
+.icon-rating:before {
+    content: "\e97b";
+}
+
+.icon-report:before {
+    content: "\e97c";
+}
+
+.icon-toronto:before {
+    content: "\e97d";
+}
+
+.icon-vehicle:before {
+    content: "\e97e";
+}
+
+.icon-travel-insurance:before {
+    content: "\e965";
+}
+
+.icon-pharmacy:before {
+    content: "\e966";
+}
+
+.icon-private-driver:before {
+    content: "\e967";
+}
+
+.icon-car-rental:before {
+    content: "\e968";
+}
+
+.icon-get-visa:before {
+    content: "\e969";
+}
+
+.icon-tourism-services:before {
+    content: "\e96a";
+}
+
+.icon-airport-pickup:before {
+    content: "\e96b";
+}
+
+.icon-serving-food-global:before {
+    content: "\e96c";
+}
+
+.icon-serving-food:before {
+    content: "\e96d";
+}
+
+.icon-order-food:before {
+    content: "\e96e";
+}
+
+.icon-washing:before {
+    content: "\e96f";
+}
+
+.icon-spear-top:before {
+    content: "\e962";
+}
+
+.icon-spear-left:before {
+    content: "\e963";
+}
+
+.icon-spear-down:before {
+    content: "\e964";
+}
+
+.icon-spear-right:before {
+    content: "\e958";
+}
+
+.icon-surgery:before {
+    content: "\e959";
+}
+
+.icon-ECG:before {
+    content: "\e95a";
+}
+
+.icon-check-list:before {
+    content: "\e95b";
+}
+
+.icon-checkbox:before {
+    content: "\e95c";
+}
+
+.icon-mobile:before {
+    content: "\e95d";
+}
+
+.icon-headphone:before {
+    content: "\e95e";
+}
+
+.icon-people:before {
+    content: "\e95f";
+}
+
+.icon-earth:before {
+    content: "\e960";
+}
+
+.icon-calendar:before {
+    content: "\e956";
+}
+
+.icon-customer-service:before {
+    content: "\e957";
+}
+
+.icon-info:before {
+    content: "\e954";
+}
+
+.icon-consultation:before {
+    content: "\e955";
+}
+
+.icon-airplane:before {
+    content: "\e92b";
+}
+
+.icon-atm:before {
+    content: "\e92c";
+}
+
+.icon-car-1:before {
+    content: "\e92d";
+}
+
+.icon-car:before {
+    content: "\e92e";
+}
+
+.icon-carInsurance:before {
+    content: "\e92f";
+}
+
+.icon-clothes:before {
+    content: "\e930";
+}
+
+.icon-coffee-cup:before {
+    content: "\e931";
+}
+
+.icon-consultant:before {
+    content: "\e932";
+}
+
+.icon-contract:before {
+    content: "\e933";
+}
+
+.icon-cooking:before {
+    content: "\e934";
+}
+
+.icon-credit-card1:before {
+    content: "\e935";
+}
+
+.icon-destination:before {
+    content: "\e936";
+}
+
+.icon-document:before {
+    content: "\e937";
+}
+
+.icon-Driver:before {
+    content: "\e938";
+}
+
+.icon-earth-globe:before {
+    content: "\e939";
+}
+
+.icon-family:before {
+    content: "\e93a";
+}
+
+.icon-free-wifi:before {
+    content: "\e93b";
+}
+
+.icon-gym:before {
+    content: "\e93c";
+}
+
+.icon-hand:before {
+    content: "\e93d";
+}
+
+.icon-hospital:before {
+    content: "\e93e";
+}
+
+.icon-lifeInsurance-1:before {
+    content: "\e93f";
+}
+
+.icon-lifeInsurance:before {
+    content: "\e940";
+}
+
+.icon-room:before {
+    content: "\e941";
+}
+
+.icon-locked:before {
+    content: "\e942";
+}
+
+.icon-medical-records:before {
+    content: "\e943";
+}
+
+.icon-monitor:before {
+    content: "\e944";
+}
+
+.icon-mosque:before {
+    content: "\e945";
+}
+
+.icon-newspaper:before {
+    content: "\e946";
+}
+
+.icon-nurse-1:before {
+    content: "\e947";
+}
+
+.icon-nurse-2:before {
+    content: "\e948";
+}
+
+.icon-old-phone:before {
+    content: "\e949";
+}
+
+.icon-parking:before {
+    content: "\e94a";
+}
+
+.icon-payment-method:before {
+    content: "\e94b";
+}
+
+.icon-rehabilitation:before {
+    content: "\e94c";
+}
+
+.icon-seasoning:before {
+    content: "\e94d";
+}
+
+.icon-shop:before {
+    content: "\e94e";
+}
+
+.icon-shopping-cart:before {
+    content: "\e94f";
+}
+
+.icon-visa:before {
+    content: "\e950";
+}
+
+.icon-washing-machine:before {
+    content: "\e951";
+}
+
+.icon-wheelchair:before {
+    content: "\e952";
+}
+
+.icon-worlwide:before {
+    content: "\e953";
+}
+
+.icon-checked-fill:before {
+    content: "\e908";
+}
+
+.icon-checked1:before {
+    content: "\e923";
+}
+
+.icon-error:before {
+    content: "\e924";
+}
+
+.icon-education:before {
+    content: "\e925";
+}
+
+.icon-idea:before {
+    content: "\e926";
+}
+
+.icon-first-aid-kit1:before {
+    content: "\e927";
+}
+
+.icon-review:before {
+    content: "\e928";
+}
+
+.icon-star-empty:before {
+    content: "\e929";
+}
+
+.icon-star-fill:before {
+    content: "\e92a";
+}
+
+.icon-question-answer:before {
+    content: "\e909";
+}
+
+.icon-search:before {
+    content: "\e90e";
+}
+
+.icon-play:before {
+    content: "\e90f";
+}
+
+.icon-discuss:before {
+    content: "\e910";
+}
+
+.icon-airport:before {
+    content: "\e911";
+}
+
+.icon-part-btn:before {
+    content: "\e912";
+}
+
+.icon-add-empty:before {
+    content: "\e913";
+}
+
+.icon-negative-empty:before {
+    content: "\e914";
+}
+
+.icon-arrow-down:before {
+    content: "\e915";
+}
+
+.icon-arrow-top:before {
+    content: "\e916";
+}
+
+.icon-arrow-right:before {
+    content: "\e917";
+}
+
+.icon-arrow-left:before {
+    content: "\e918";
+}
+
+.icon-facebook:before {
+    content: "\e919";
+}
+
+.icon-instagram:before {
+    content: "\e91a";
+}
+
+.icon-youtube:before {
+    content: "\e91b";
+}
+
+.icon-contact-us:before {
+    content: "\e91c";
+}
+
+.icon-twitter:before {
+    content: "\e91d";
+}
+
+.icon-pinterest:before {
+    content: "\e91e";
+}
+
+.icon-btn-menu:before {
+    content: "\e91f";
+}
+
+.icon-linkedin:before {
+    content: "\e920";
+}
+
+.icon-telegram:before {
+    content: "\e921";
+}
+
+.icon-aparat:before {
+    content: "\e922";
+}
+
+.icon-plus:before {
+    content: "\e90d";
+}
+
+.icon-groups:before {
+    content: "\e900";
+}
+
+.icon-email:before {
+    content: "\e901";
+}
+
+.icon-phone:before {
+    content: "\e902";
+}
+
+.icon-sort:before {
+    content: "\e903";
+}
+
+.icon-attach:before {
+    content: "\e904";
+}
+
+.icon-profile:before {
+    content: "\e905";
+}
+
+.icon-exit:before {
+    content: "\e906";
+}
+
+.icon-hart-empty:before {
+    content: "\e907";
+}
+
+.icon-delete:before {
+    content: "\e90a";
+}
+
+.icon-hart-fill:before {
+    content: "\e90b";
+}
+
+.icon-edit:before {
+    content: "\e90c";
+}
+.icon-quote-top:before {
+  content: "\e973";
+}

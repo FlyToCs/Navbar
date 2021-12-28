@@ -1,0 +1,150 @@
+/*-------------------Fonts--------------------*/
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('assets/fonts/iranSans/eot/IRANSansWeb_Bold.eot');
+    src: url('assets/fonts/iranSans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('assets/fonts/iranSans/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('assets/fonts/iranSans/woff/IRANSansWeb_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('assets/fonts/iranSans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/iranSans/eot/IRANSansWeb_Medium.eot');
+    src: url('assets/fonts/iranSans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('assets/fonts/iranSans/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('assets/fonts/iranSans/woff/IRANSansWeb_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('assets/fonts/iranSans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/fonts/iranSans/eot/IRANSansWeb_Light.eot');
+    src: url('assets/fonts/iranSans/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('assets/fonts/iranSans/woff2/IRANSansWeb_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('assets/fonts/iranSans/woff/IRANSansWeb_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('assets/fonts/iranSans/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+/*-------------------End Fonts--------------------*/
+/*------------------General styles--------------*/
+body {
+    font-family: IRANSans, sans-serif;
+    text-align: right;
+    direction: rtl;
+    font-weight: 300;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, .nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    height: 65px;
+    line-height: 8px;
+}
+.btn .badge {
+    top: 0;
+}
+.badge-pill {
+    padding-left: 2.6em;
+    padding-right: 2.6em;
+    border-radius: 10rem;
+    height: 34px;
+    line-height: 25px;
+}
+
+header .nav-item a {
+    font-weight: 900;
+}
+
+@media screen and (max-width: 991px) {
+
+    header #mySidenav {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        overflow-x: hidden;
+        width: 250px;
+        background: #343a40;
+        display: block !important;
+        box-shadow: 0 11px 9px 2px rgba(0, 0, 0, .2);
+        -webkit-box-shadow: 0 11px 9px 2px rgba(0, 0, 0, .2);
+        -moz-box-shadow: 0 11px 9px 2px rgba(0, 0, 0, .2);
+    }
+
+    header #mySidenav .closebtn {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        padding: 5px;
+        color: #7e7a7a;
+        font-size: 20px;
+        z-index: 99;
+        cursor: pointer;
+    }
+
+    header #mySidenav img {
+        max-width: 58%;
+        margin: 15px 72px 0 0;
+    }
+
+
+    header #mySidenav .navbar {
+        display: block;
+        padding-top: 40px;
+    }
+
+    header {
+        line-height: 25px;
+    }
+
+    header #mySidenav .navbar .nav-item {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    header #mySidenav .navbar .nav-item:not(:last-child) {
+        border-bottom: 1px solid #ced4da;
+    }
+}
+
+
+
+@media screen and (max-width: 775px) {
+    .card {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .btn .badge {
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+        border-radius: 10rem;
+        height: 28px;
+        line-height: 20px;
+    }
+    header .nav-item a {
+        font-weight: 900;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 425px) {
+
+
+}

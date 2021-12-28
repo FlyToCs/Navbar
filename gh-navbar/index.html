@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+</html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>navbar</title>
+    <link rel="stylesheet" href="assets/plugin/swiper/swiper-bundle.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/plugin/bootstrap/rtl-bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/fonts/icomoon.css" type="text/css">
+    <link rel="stylesheet" href="assets/style.css" type="text/css"/>
+</head>
+<body>
+
+<header class="bg-dark container mb-5 mt-5">
+    <div class="row flex-nowrap justify-content-between align-items-center px-3">
+        <div class="btn-menu text-light d-flex align-items-center d-lg-none" onclick="openNav()">
+            <i class="icon-btn-menu"></i>
+        </div>
+        <div class="col-4">
+            <div class="btn">
+                <a href="#" class="badge badge-pill badge-info">مخاطبین</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <nav class="align-items-center sidenav d-flex" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn d-lg-none" onclick="closeNav()">&times;</a>
+                <a href="#" class="logo d-lg-none d-block">
+                    <img src="assets/image/WebMoney_logo_blue.svg" alt="logo">
+                </a>
+                <ul class="list-unstyled navbar text-center pt-3">
+                    <li class="nav-item"><a href="#" class="nav-link">درباره ما</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">پروژه ها</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">خدمات ما</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-4">
+            <div class="float-right">
+                <a href="#" class="logo">
+                    <img src="assets/image/WebMoney_logo_blue.svg" alt="logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="bg-dark container mb-5 h-auto">
+    <div class="d-flex flex-column flex-md-row justify-content-between justify-content-md-center align-items-center px-3">
+        <div class="logo">
+            <a href="#" class="logo"><img src="assets/image/WebMoney_logo_blue.svg" alt="logo-center"></a>
+        </div>
+        <div class="ml-auto">
+            <nav class="align-items-center d-flex " >
+                <ul class="list-unstyled navbar text-center pt-3 ">
+                    <li class="nav-item"><a href="#" class="nav-link">درباره ما</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">پروژه ها</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">خدمات ما</a></li>
+                </ul>
+                <div class="btn">
+                    <a href="#" class="badge badge-pill badge-info">مخاطبین</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<header class="bg-dark container mb-5 header-blog h-auto">
+    <div class="d-flex justify-content-between align-items-center flex-column flex-md-row ">
+        <div class="btn-menu mt-md-0 mt-4 text-light" data-toggle="collapse" data-target="#collapseExample">
+            <i class="icon-btn-menu"></i>
+        </div>
+        <div class=" collapse" id="collapseExample">
+           <div class="card  ">
+               <div class="card-body">
+                   <p class="card-text small ">this is oneline description about collapse</p>
+               </div>
+           </div>
+        </div>
+        <div class=" ">
+            <a href="#" class="logo mt-sm-5"><img src="assets/image/WebMoney_logo_blue.svg" alt="logo-center"></a>
+        </div>
+    </div>
+</header>
+
+
+<script src="assets/plugin/jquery/jquery.min.js"></script>
+<script src="assets/plugin/swiper/swiper-bundle.min.js"></script>
+<script src="assets/plugin/bootstrap/bootstrap.min.js"></script>
+<script src="assets/plugin/script.js"></script>
+<script src="assets/script.js"></script>
+<script>
+    var navbar = document.getElementById('mySidenav');
+    var btn = document.querySelector('.btn-menu');
+    var closebtn = document.querySelector('.closebtn');
+    if (btn) {
+        btn.addEventListener('click', function () {
+            navbar.style.left = 0;
+        });
+    }
+
+    if (closebtn) {
+        closebtn.addEventListener('click', function () {
+            navbar.style.left = '-100%';
+        });
+    }
+
+
+    function myFunction() {
+        document.getElementById("mySidenav").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.nav-item')) {
+            var dropdowns = document.getElementsByClassName("nav-dropdown");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+<script>
+
+</script>
+</body>
